@@ -1,0 +1,43 @@
+.table-zebra-striping {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+.table-zebra-striping th {
+	background: #8CAAD4;
+	color: #FFFFFF;
+	padding: 0.3em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.table-zebra-striping td {
+	border-bottom: 1px solid #ddd;
+	padding: 1em;
+}
+
+/* EVEN */
+
+.table-zebra-striping tr:nth-child(even) {
+	background: #F5F5F5;
+}
+
+/* ODD */
+
+.table-zebra-striping tr:nth-child(odd) {
+	background: #D5DDE8;
+}
+
+.button-flat {
+	border: 1px solid #801515;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	background-color: #802545;        /* ubah warna background */
+	color: #FFFFFF;                   /* ubah warna font */
+	font-size: 12px;                  /* ubah ukuran font */
+	padding: 0.01em 1em 0.01em 1em;     /* padding: top right bottom left; */
+}
+.button-flat:hover {
+	opacity: 0.8;                     /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+.button-flat:active {
+	background: #550000;              /* ubah background saat button ditekan */
+}

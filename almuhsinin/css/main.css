@@ -1,0 +1,109 @@
+.container{
+                margin-top: 130px;
+                margin-left: 500px;
+            }
+            
+            .bingkai{
+                border: 5px solid #3498db;
+                width: 440px;
+                height: 300px;
+                
+            }
+            body{
+                background-color: #bdc3c7;
+            }
+
+            .kepala{
+                width: 450px;
+                height: 50px;
+                background-color: #3498db;
+                border-radius: 3px 3px 0 0;
+            }
+
+            .kepalatext{
+                color: #ffffff;
+                text-align: center;
+                font-size: 18pt;
+                font-family: Century;
+                padding-top: 12px;
+            }
+            
+            .kepalatext:hover{
+                color: #e74c3c;
+            }
+
+            .badan{
+                width: 450px;
+                height: 360px;
+                background-color: #ffffff;
+                border-radius: 3px;
+                box-shadow: 6px 6px 0 0 #ffffff;
+            }
+
+            .email{
+                font-family: Century;
+                font-size: 13pt;
+                width: 415px;
+                height: 35px;
+                border: 1px solid #2980b9;
+                margin-left: 15px;
+                margin-top: 65px;
+                padding-left: 5px;
+                display: compact;
+                box-shadow: #95a5a6;
+                border-radius: 5px;
+            }
+
+            .passwd{
+                font-family: Century;
+                font-size: 13pt;
+                width: 415px;
+                height: 35px;
+                border: 1px solid #2980b9;
+                margin-left: 15px;
+                margin-top: 10px;
+                padding-left: 5px;
+                display: compact;
+                box-shadow: #95a5a6;
+                border-radius: 5px;
+            }
+
+            .daftar{
+                background-color: #ffffff;
+                color: #3498db;
+                margin-top: 1px;  
+                margin-left: 15px;
+                width: 415px;
+                height: 40px;
+                border: 2px solid #3498db;
+                border-radius: 5px;
+                font-family: Century;
+                font-size: 13pt;
+            }
+
+            .daftar:hover{
+                background-color: #e74c3c;
+                color: #ffffff;
+            }
+
+            .bawah{
+                margin-top: 80px;
+                width: 440px;
+                height: 80px;
+                background-color: #3498db;
+                border-radius: 0 0 3px 3px;
+            }
+
+            .footertext{
+                margin-top: 5px;
+                text-align: center;
+                font-family: Century;
+                font-size: 12pt;
+                color: #ffffff;
+            }
+            .footertext>a{
+                color: #fefefe;
+            }
+            .footertext>a:hover{
+                color: #0e0e0e;
+            }
